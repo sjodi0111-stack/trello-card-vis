@@ -1,9 +1,16 @@
 {
-  "name": "HTML Trello Card",
-  "description": "Custom HTML Trello-style card visualization",
-  "organization": "AsianStory",
-  "logoUrl": "https://raw.githubusercontent.com/google/logos/master/google_logo.png",
-  "componentUrl": "https://sjodi0111-stack.github.io/trello-card-vis/index.html",
-  "options": {},
-  "fields": {}
+  "name": "Trello Card Visualization",
+  "organization": "sjodi0111-stack",
+  "description": "Custom viz card style Trello untuk Looker Studio",
+  "logoUrl": "https://sjodi0111-stack.github.io/trello-card-vis/icon.png",
+  "supportUrl": "https://github.com/sjodi0111-stack/trello-card-vis",
+  "packageUrl": "https://sjodi0111-stack.github.io/trello-card-vis/",
+  "code": {
+    "script": "script.js",
+    "css": "style.css",
+    "html": "index.html"
+  },
+  "data": {
+    "schemas": ["table"]
+  }
 }
