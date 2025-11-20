@@ -4,12 +4,14 @@
   "description": "Custom viz card style Trello untuk Looker Studio",
   "logoUrl": "https://sjodi0111-stack.github.io/trello-card-vis/icon.png",
   "supportUrl": "https://github.com/sjodi0111-stack/trello-card-vis",
-  "packageUrl": "https://sjodi0111-stack.github.io/trello-card-vis/",
-  "code": {
-    "script": "script.js",
-    "css": "style.css",
-    "html": "index.html"
+  
+  "devMode": true,
+
+  "components": {
+    "visualization": "index.html",
+    "config": "index.html"
   },
+
   "data": {
     "schemas": ["table"]
   }
