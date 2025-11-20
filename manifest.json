@@ -5,7 +5,6 @@
   "logoUrl": "https://sjodi0111-stack.github.io/trello-card-vis/icon.png",
   "supportUrl": "https://github.com/sjodi0111-stack/trello-card-vis",
   "packageUrl": "https://sjodi0111-stack.github.io/trello-card-vis/",
-  "devMode": true,
   "components": {
     "visualization": "index.html",
     "config": "index.html"
