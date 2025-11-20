@@ -1,1 +1,4 @@
-document.body.innerHTML += "<p style='color:blue'>JS Loaded</p>";
+dscc.subscribeToData(function(data) {
+  const container = document.getElementById('cards-container');
+  container.innerHTML = "<p>Data received from Looker Studio!</p>";
+});
