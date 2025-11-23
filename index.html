@@ -1,19 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: #f5f6fa;
+  }
+
+  .center-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  iframe {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+</style>
 </head>
 <body>
 
-<iframe 
-    width="1280" 
-    height="945" 
-    src="https://lookerstudio.google.com/embed/reporting/bcc51143-a64f-458b-8a4a-4973d594fa84/page/xhDfF" 
-    frameborder="0" 
-    style="border:0; width:100%; height:100vh;" 
-    allowfullscreen 
+<div class="center-wrapper">
+  <iframe
+    width="1280"
+    height="945"
+    src="https://lookerstudio.google.com/embed/reporting/bcc51143-a64f-458b-8a4a-4973d594fa84/page/xhDfF"
+    frameborder="0"
+    allowfullscreen
     sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
   </iframe>
+</div>
 
 </body>
 </html>
